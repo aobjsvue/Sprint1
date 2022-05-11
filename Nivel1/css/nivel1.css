@@ -1,0 +1,115 @@
+html {
+    max-width: 1200px;
+}
+main * {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header {
+        background-color: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .header1 {
+            background-color: #27394e;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+            .logo {
+                background-color: #ea584b;
+                flex: 1 1 auto;
+            }
+            .buttons {
+                background-color: #ea584b;
+                flex: 5 1 auto;
+            }
+            .social {
+                background-color: #ea584b;
+                flex: 1 1 auto;
+            }
+        .header2 {
+            background-color: rgb(240, 118, 58);
+        }
+            .slogan {
+                background-color: rgb(255, 204, 94);
+            }
+    .section {
+        background-color: #000;
+        display: flex;
+    }
+        .articles {
+            background-color: rgb(68, 70, 94);
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .article {
+                background-color: rgb(22, 100, 164);
+                flex: 1 1 40%;
+            }
+            .annex {
+                background-color: rgb(99, 153, 187);
+                flex: 1 1 100%;
+            }
+        .aside {
+            background-color: #f94c47;
+            flex: 1 1 auto;
+        }
+            .aside1 {
+                background-color: #ffe380;
+            }
+    .footer {
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+    }
+        .foot {
+            background-color: #e4a434;
+            width: 100%;
+        }
+@media (min-width: 1200px) {
+    html {
+        margin: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section {
+        flex-direction: column;
+        background-color: #fff734;
+    }
+}
+@media (min-width: 280px) and (max-width: 767px) {
+    .header1 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .section {
+        flex-direction: column;
+        background-color: #ffd939;
+    }
+    .articles {
+        flex-direction: column;
+        background-color: #004763;
+    }
+    .article {
+        background-color: #558991;
+    }
+    .annex {
+        background-color: #97d4c5;
+    }
+    .aside {
+        background-color: #ff784c;
+    }
+    .aside1 {
+        background-color: #ffab64;
+    }
+    .foot {
+        background-color: #ffbf60;
+    }
+}
