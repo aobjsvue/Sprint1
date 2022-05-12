@@ -193,7 +193,7 @@ a {
     .header1{
         flex-direction: column;
         align-items: stretch;
-        padding: 2em 0 0 0;
+        padding: 2em 0;
     }
     .buttons {
         margin: 2em 0;
@@ -219,7 +219,7 @@ a {
     .header1{
         flex-direction: column;
         align-items: stretch;
-        padding: 2em 0 0 0;
+        padding: 2em 0 1em 0;
     }
     .buttons {
         margin: 2em 0;
